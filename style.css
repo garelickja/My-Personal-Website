@@ -18,6 +18,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
 }
 .topnav a:hover {
     background-color: #ddd;
@@ -32,4 +33,16 @@ body {
     background-color: #f1f1f1;
     padding: 10px;
     margin-top: 20px; 
+    font-size: 14px;
+}
+.images {
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: #333;
+    color: #f2f2f2;
+    padding: 83px;
+    text-align: center;
+    font-size: 12px;
 }

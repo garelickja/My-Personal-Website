@@ -1,5 +1,14 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+function addingEventListener() {
+    const buttons = document.querySelectorAll('button');
 
-document.querySelector("body").appendChild(h2);
+    function clickAlert() {
+        alert('I was clicked!');
+    }
 
+    buttons.forEach(button => {
+        button.addEventListener('click', clickAlert);
+    });
+}
+function myFunction() {
+    document.getElementById("demo").style.color = "red";
+}
