@@ -9,6 +9,23 @@ function addingEventListener() {
         button.addEventListener('click', clickAlert);
     });
 }
-function myFunction() {
-    document.getElementById("demo").style.color = "red";
+
+function addingOnMouseOver() {
+    const footer = document.querySelector('footer');
+
+    function myScript() {
+        console.log('The footer was clicked!');
+    }
+
+    footer.addEventListener('mouseover', myScript);
+}
+
+function addingOnMouseOut() {
+    const footer = document.querySelector('footer');
+
+    function myScript() {
+        console.log('The footer was clicked!');
+    }
+
+    footer.addEventListener('mouseout', myScript);
 }

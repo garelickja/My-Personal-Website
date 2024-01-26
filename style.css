@@ -46,3 +46,7 @@ body {
     text-align: center;
     font-size: 12px;
 }
+
+.footer:hover {
+    color: #ffd700;
+}
